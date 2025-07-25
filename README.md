@@ -17,6 +17,7 @@ A modern, responsive, and visually stunning personal portfolio website built wit
 
 ### Home / About Section
 ![About Section](https://github.com/saisurendra6/my_portfolio/blob/main/images/about_section.png) 
+![About Section Dark Mode](https://github.com/saisurendra6/my_portfolio/blob/main/images/about_section_dark_mode.png)
 ### Experience Section 
 ![Experience Section](https://github.com/saisurendra6/my_portfolio/blob/main/images/experience_section.png) 
 ### Projects Section
