@@ -1,0 +1,28 @@
+name: my_portfolio
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  provider: ^6.1.2
+  font_awesome_flutter: ^10.7.0
+  url_launcher: ^6.3.0
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - assets/images/
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+  uses-material-design: true
