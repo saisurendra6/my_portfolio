@@ -7,7 +7,7 @@ A modern, responsive, and visually stunning personal portfolio website built wit
 - **Responsive Design**: Looks beautiful on desktop, tablet, and mobile.
 - **Dynamic Theming**: Light/dark mode toggle with animated theme transitions.
 - **Clean Navigation**: Website-style fixed navigation bar with smooth scrolling and a right-side drawer menu on mobile.
-- **Rich Showcase**: Sections for About, Projects, Skills, Education, Certifications, Experience, and Contact.
+- **Rich Showcase**: Sections for About, Experience, Projects, Skills, Education, Certifications, and Contact.
 - **Data-Driven**: All content (projects, skills, certifications, etc.) is defined via Dart models for easy updates.
 - **Modern Animations**: Subtle hover and transition effects throughout for premium UX.
 
@@ -16,14 +16,21 @@ A modern, responsive, and visually stunning personal portfolio website built wit
 > Replace all below dummy links with your actual screenshots or photos after uploading to GitHub or an image host.
 
 ### Home / About Section
-![About Section](https://dummyimage.com/1000x500/cccccc/222222&text=About+Section+Screenshot Section
-![Projects Section](https://dummyimage.com/1000x500/cccccc/222222&text=Projects+Section+Screenshot Section
-![Skills Section](https://dummyimage.com/1000x500/cccccc/222222&text=Skills+Section+Screenshot Section
-![Education Section](https://dummyimage.com/1000x500/cccccc/222222&text=Education+Section+Screenshot Section
-![Certifications Section](https://dummyimage.com/1000x500/cccccc/222222&text=Certifications+Section Section
-![Experience Section](https://dummyimage.com/1000x500/cccccc/222222&text=Experience+Section+Screenshot Section
-![Contact Section](https://dummyimage.com/1000x500/cccccc/222222&text=Contact+Section+Screenshot Model Dart File
-![Project Model](https://dummyimage.com/1000x500/cccccc/222222&text=ProjectModel+Code+Screenshot Structure
+![About Section](https://github.com/saisurendra6/my_portfolio/blob/main/images/about_section.png) 
+### Experience Section 
+![Experience Section](https://github.com/saisurendra6/my_portfolio/blob/main/images/experience_section.png) 
+### Projects Section
+![Projects Section](https://github.com/saisurendra6/my_portfolio/blob/main/images/projects_section.png) 
+Project View
+![Project Model](https://github.com/saisurendra6/my_portfolio/blob/main/images/project_view.png) 
+### Skills Section
+![Skills Section](https://github.com/saisurendra6/my_portfolio/blob/main/images/skill_section.png) 
+### Education and Certifications Section
+![Education and Certifications Section](https://github.com/saisurendra6/my_portfolio/blob/main/images/education_certification_section.png) 
+### Contact Section
+![Contact Section](https://github.com/saisurendra6/my_portfolio/blob/main/images/contact_me_section.png) 
+
+## Structure
 
 ```
 lib/
@@ -35,16 +42,20 @@ lib/
 │     └── portfolio_data.dart
 ├── providers/
 │     └── theme_provider.dart
+├── utils/
+│     └── utils.dart
 ├── views/
 │     └── home_page.dart
 ├── widgets/
-│     ├── nav_bar.dart
-│     ├── skill_card.dart
-│     ├── project_card.dart
 │     ├── certification_card.dart
-│     ├── experience_card.dart
+│     ├── contact_section.dart
 │     ├── custom_button.dart
-│     └── contact_section.dart
+│     ├── education_card.dart
+│     ├── experience_card.dart
+│     ├── nav_bar.dart
+│     ├── project_card.dart
+│     ├── project_model.dart
+│     └── skill_card.dart
 ```
 
 ## 📝 How to Run
@@ -87,18 +98,17 @@ lib/
 
 ## 🖼️ Custom Section Gallery
 
-| Section         | Screenshot Link                                            |
-|-----------------|-----------------------------------------------------------|
-| About           | (https://dummyimage.com/about_section.png)                |
-| Projects        | (https://dummyimage.com/projects_section.png)              |
-| Skills          | (https://dummyimage.com/skills_section.png)                |
-| Education       | (https://dummyimage.com/education_section.png)             |
-| Certifications  | (https://dummyimage.com/certifications_section.png)        |
-| Experience      | (https://dummyimage.com/experience_section.png)            |
-| Contact         | (https://dummyimage.com/contact_section.png)               |
-| Project Model   | (https://dummyimage.com/project_model_code.png)            |
+| Section         | Screenshot Link                                                                                                  |
+|-----------------|------------------------------------------------------------------------------------------------------------------|
+| About           | (https://github.com/saisurendra6/my_portfolio/blob/main/images/about_section.png)                                |
+| Experience      | (https://github.com/saisurendra6/my_portfolio/blob/main/images/experience_section.png)                           |
+| Projects        | (https://github.com/saisurendra6/my_portfolio/blob/main/images/projects_section.png)                             |
+| Skills          | (https://github.com/saisurendra6/my_portfolio/blob/main/images/skills_section.png)                               |
+| Education       | (https://github.com/saisurendra6/my_portfolio/blob/main/images/education_certification_section.png)              |
+| Certifications  | (https://github.com/saisurendra6/my_portfolio/blob/main/images/education_certification_section.png)              |
+| Contact         | (https://github.com/saisurendra6/my_portfolio/blob/main/images/contact_me_section.png)                           |
+| Project Model   | (https://github.com/saisurendra6/my_portfolio/blob/main/images/project_view.png)                                 |
 
-_Update with your real screenshot URLs after setup!_
 
 ## 📦 Deployment
 
