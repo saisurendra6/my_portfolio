@@ -120,12 +120,38 @@ class ProjectModal extends StatelessWidget {
                       itemCount: project.galleryImages.length,
                       itemBuilder: (context, index) => Padding(
                         padding: const EdgeInsets.only(right: 8),
-                        child: ClipRRect(
-                          borderRadius: BorderRadius.circular(12),
-                          child: Image.asset(
-                            project.galleryImages[index],
-                            width: 200,
-                            fit: BoxFit.cover,
+                        child: GestureDetector(
+                          onTap: () => Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (_) => Scaffold(
+                                appBar: AppBar(
+                                  backgroundColor: Colors.black,
+                                  actions: [
+                                    IconButton(
+                                      icon: const Icon(Icons.close,
+                                          color: Colors.white),
+                                      onPressed: () =>
+                                          Navigator.of(context).pop(),
+                                    ),
+                                  ],
+                                ),
+                                backgroundColor: Colors.black,
+                                body: Center(
+                                  child: InteractiveViewer(
+                                    child: Image.asset(
+                                        project.galleryImages[index]),
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(12),
+                            child: Image.asset(
+                              project.galleryImages[index],
+                              width: 200,
+                              fit: BoxFit.cover,
+                            ),
                           ),
                         ),
                       ),
