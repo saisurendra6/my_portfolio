@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return ValueListenableBuilder<ThemeData>(
       valueListenable: ThemeProvider.themeNotifier,
       builder: (context, theme, _) => MaterialApp(
-        title: 'My Portfolio',
+        title: 'Surendra\'s Portfolio',
         theme: theme,
         home: const HomePage(),
       ),

@@ -21,6 +21,8 @@ dev_dependencies:
 flutter:
   assets:
     - assets/images/
+    - assets/images/ai_trolley/
+    - assets/images/toolz/
   fonts:
     - family: Roboto
       fonts:
