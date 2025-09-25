@@ -82,7 +82,7 @@ lib/
   - Name, bio, avatar, contact info
   - Projects (title, description, tech stack, links, images)
   - Skills, education, experience, certifications  
-- **Change Theme Colors:**  
+- **Change Theme Colours:**  
   Edit `lib/constants/colors.dart` and `lib/providers/theme_provider.dart` for branding.
 
 
@@ -108,20 +108,13 @@ lib/
 
 
 ## 📦 Deployment
-
 Deploy easily to GitHub Pages, Vercel, Netlify, or your own server:
 - Build: `flutter build web`
 - Deploy `build/web` output directory as static site.
 
 ## 📄 License
-
-This project is [MIT](LICENSE) licensed.  
 Feel free to fork and use as your portfolio's foundation!
 
-## 🙌 Credits
-
-UI, theme system, and responsive layouts are inspired by modern personal portfolios and open-source Flutter projects.  
-Need help or want to contribute? Open an issue or pull request!
 
 **Showcase your skills—beautifully, blazing fast, and fully custom.**  
 Happy coding! 🚀
