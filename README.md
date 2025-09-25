@@ -13,8 +13,6 @@ A modern, responsive, and visually stunning personal portfolio website built wit
 
 ## 📸 Screenshots
 
-> Replace all below dummy links with your actual screenshots or photos after uploading to GitHub or an image host.
-
 ### Home / About Section
 ![About Section](https://github.com/saisurendra6/my_portfolio/blob/main/images/about_section.png) 
 ![About Section Dark Mode](https://github.com/saisurendra6/my_portfolio/blob/main/images/about_section_dark_mode.png)
@@ -87,8 +85,6 @@ lib/
 - **Change Theme Colors:**  
   Edit `lib/constants/colors.dart` and `lib/providers/theme_provider.dart` for branding.
 
-- **Swap Section Photos:**  
-  Replace dummy image links in this README with screenshots of each section after deploying or customizing.
 
 ## 🧑‍💻 Tech Stack
 
